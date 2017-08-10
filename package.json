@@ -1,7 +1,6 @@
 {
-  "name": "hellonode",
+  "name": "itaastest",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,15 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/toxicsushi/hellonode.git"
+    "url": "git+https://github.com/beatriz-rodrigues-uux/iTaaSTest.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/toxicsushi/hellonode/issues"
+    "url": "https://github.com/beatriz-rodrigues-uux/iTaaSTest/issues"
   },
-  "homepage": "https://github.com/toxicsushi/hellonode#readme",
+  "homepage": "https://github.com/beatriz-rodrigues-uux/iTaaSTest#readme",
   "dependencies": {
-    "lodash": "^4.17.4"
+    "lodash.parseint": "^4.0.2",
+    "moment": "^2.18.1",
+    "xmlhttprequest": "^1.8.0"
   }
 }
