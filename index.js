@@ -1,6 +1,10 @@
-const read = require('./app/readTxt');
-const dataArray = require('./app/dataArray');
-const result = read.readTxt();
-console.log(`The result is:\n${result}`);
-var array = dataArray.toDataArray(result);
-console.log(array);
+const read = require('./tools/readTxt');
+const buildAgoraLog = require('./tools/buildAgoraLog');
+const write = require('write');
+var response = read.readTxt();
+console.log(`Log file received:\n${response}`);
+var result = buildAgoraLog.parseToAgoraFormat(response);
+console.log(result);
+write("./output/result.csv", result, function(err) {
+    if (err) console.log(err);
+});

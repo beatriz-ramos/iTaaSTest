@@ -19,6 +19,7 @@
   "dependencies": {
     "lodash.parseint": "^4.0.2",
     "moment": "^2.18.1",
+    "write": "^1.0.3",
     "xmlhttprequest": "^1.8.0"
   }
 }
